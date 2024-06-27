@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTodo } from '../contexts/TodoContext';
 const TodoItem = () => {
-   const {todos,deleteTodo,updateTodo} = useTodo();
+   const {todos,deleteTodo} = useTodo();
   return (
     <>
       {
