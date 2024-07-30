@@ -27,19 +27,19 @@ function Navbar() {
       <div className='flex gap-x-10 cursor-pointer'>
         <a
           onClick={() => { addQuery("cricket") }}
-          className='text-violet-700 hover:text-violet-900 font-semibold'>
+          className='text-violet-700 text-lg hover:text-violet-900 font-semibold'>
           Cricket
         </a>
 
         <a
           onClick={() => { addQuery("finance") }}
-          className='text-violet-700 hover:text-violet-900 font-semibold'>
+          className='text-violet-700 text-lg hover:text-violet-900 font-semibold'>
           Finance
         </a>
 
         <a
           onClick={() => { addQuery("technology") }}
-          className='text-violet-700 hover:text-violet-900 font-semibold'>
+          className='text-violet-700 text-lg hover:text-violet-900 font-semibold'>
           Technology
         </a>
       </div>
