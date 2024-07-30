@@ -17,14 +17,14 @@ function Navbar() {
   }
 
   return (
-    <div className='flex z-10 min-w-full justify-around bg-blue-50 p-3 fixed'>
+    <div className='flex flex-wrap z-10 min-w-full justify-around bg-blue-50 p-3 fixed'>
       <h1
         onClick={() => { addQuery("India") }}
         className='text-fuchsia-700 hover:text-fuchsia-900 text-xl font-bold cursor-pointer'>
         Daily Updates
       </h1>
       
-      <div className='flex gap-x-10 cursor-pointer'>
+      <div className='flex flex-wrap gap-x-10 cursor-pointer'>
         <a
           onClick={() => { addQuery("cricket") }}
           className='text-violet-700 text-lg hover:text-violet-900 font-semibold'>
