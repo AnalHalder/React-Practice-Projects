@@ -41,7 +41,7 @@ function Table() {
         ))
       ) : (
         <div className="flex items-center justify-center py-3 px-4 text-gray-500">
-          Loading
+           No data available
         </div>
       )}
     </div>
