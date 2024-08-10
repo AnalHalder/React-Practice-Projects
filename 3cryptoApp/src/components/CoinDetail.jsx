@@ -89,11 +89,11 @@ function CoinDetail() {
 
   //set data for the chart
   const marketCapData = {
-    labels: graph.market_caps.map(item => new Date(item[0]).toLocaleDateString()),
+    labels: graph.prices.map(item => new Date(item[0]).toLocaleDateString()),
     datasets: [
       {
-        label: 'Market Cap',
-        data: graph.market_caps.map(item => item[1]),
+        label: 'price ($)',
+        data: graph.prices.map(item => item[1]),
         fill: false,
         backgroundColor: 'rgba(75,192,192,0.4)',
         borderColor: 'rgba(75,192,192,1)',

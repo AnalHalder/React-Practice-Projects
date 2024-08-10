@@ -2,11 +2,11 @@ import Navbar from "./components/Navbar";
 import Table from "./components/Table";
 import Pagination from "./components/Pagination";
 import CoinDetail from "./components/CoinDetail";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Navbar />
       <div className="container mx-auto mt-2">
         <Routes>
@@ -14,7 +14,7 @@ function App() {
           <Route path="/coin/:id" element={<CoinDetail />} />
         </Routes>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
